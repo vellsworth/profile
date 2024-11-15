@@ -6,7 +6,7 @@
 - name: GitHub
   url: https://www.github.com/apollorion
   icon: mdi:github
-  color: '#E4405F'
+  color: '#FFFFFF'
 
 - name: youtube
   url: https://www.youtube.com/@TheOutdoorProgrammer
