@@ -1,3 +1,5 @@
+# These icons can be found at: https://icon-sets.iconify.design/
+
 - name: GPG Key
   url: https://keyserver.ubuntu.com/pks/lookup?search=0xFAFA8E62C123F240&fingerprint=on&exact=on&op=vindex
   icon: fxemoji:lock
