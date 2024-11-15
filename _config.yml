@@ -6,8 +6,8 @@ name: Joey Stout  # Name of your website
 tagline: Apollorion  # Set your preferred page title
 description: Programmer, Hunter, Hockey Fan, Family Man.  # Also used as a meta description
 favicon:
-  path: https://i.ibb.co/SBRmBmt/favicon.png # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
-  type: png # File format of image. Change according to your image. Supported types: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types
+  path: assets/images/favicon.svg # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
+  type: svg # File format of image. Change according to your image. Supported types: https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types
 logo: https://avatars.githubusercontent.com/u/13936290 # Path / URL to the logo (e.g., 'assets/images/logo.png')
 url: https://apollorion.com # URL of your website
 locale: en_US # The value specifies the locale in which these tags are marked up. It follows the format `language_TERRITORY`.
@@ -21,19 +21,21 @@ image:
   width: 100
   alt: logo
 
+gpg:
+  fingerprint: 11E5 DEA8 16A2 C899 A939 940B FAFA 8E62 C123 F240
+
 # Verified Badge Configuration
 badge:
   enable: true # Set to 'true' or 'false' to enable / disable the badge
   icon: ri:verified-badge-fill  # Enter the icon name for the badge from Iconify Design (https://icon-sets.iconify.design/)
   color: '#dfb221'  # Define the color of the badge
- 
+
 # Defaults
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
-      layout: "default"    
+      layout: "default"
 
 # Exclude
-exclude: [README.md, Gemfile.lock, .jekyll-cache/, .github/, CHANGELOG.md, Gemfile, LICENSE.txt, funding.yml, linkhub-jekyll-theme.gemspec]
+exclude: [ README.md, Gemfile.lock, .jekyll-cache/, .github/, CHANGELOG.md, Gemfile, LICENSE.txt, funding.yml, linkhub-jekyll-theme.gemspec ]

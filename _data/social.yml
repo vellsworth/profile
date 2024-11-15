@@ -1,16 +1,6 @@
 # These icons can be found at: https://icon-sets.iconify.design/
 
-- name: GPG Key
-  url: https://keyserver.ubuntu.com/pks/lookup?search=0xFAFA8E62C123F240&fingerprint=on&exact=on&op=vindex
+- name: My GPG Key
+  url: https://keyserver.ubuntu.com/pks/lookup?search=11e5dea816a2c899a939940bfafa8e62c123f240&fingerprint=on&hash=on&exact=on&op=index
   icon: fxemoji:lock
-  color: '#1877F2'
 
-- name: GitHub
-  url: https://www.github.com/apollorion
-  icon: mdi:github
-  color: '#FFFFFF'
-
-- name: youtube
-  url: https://www.youtube.com/@TheOutdoorProgrammer
-  icon: ri:youtube-fill
-  color: '#FF0000'

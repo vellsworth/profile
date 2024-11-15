@@ -1,17 +1,58 @@
-fixed-button-width: false # Set to true/false
+# These icons can be found at: https://icon-sets.iconify.design/
+
+fixed-button-width: true # Set to true/false
 icon-position: left # Set to left/right
 buttons:
- - category: Where You Can Find Me
-   items:
-    - title: GPG Key
-      url: https://keyserver.ubuntu.com/pks/lookup?search=0xFAFA8E62C123F240&fingerprint=on&exact=on&op=vindex
-      icon: fxemoji:lock
-    
-    - title: GitHub
-      url: https://www.github.com/apollorion
-      icon: mdi:github
-    
-    - title: youtube
-      url: https://www.youtube.com/@TheOutdoorProgrammer
-      icon: ri:youtube-fill
-      color: '#FF0000'
+  - category: Where You Can Find Me
+    items:
+      - title: GitHub
+        url: https://www.github.com/apollorion
+        icon: mdi:github
+
+      - title: YouTube
+        url: https://www.youtube.com/@TheOutdoorProgrammer
+        icon: logos:youtube-icon
+
+      - title: LinkedIn
+        url: https://www.linkedin.com/in/apollorion/
+        icon: mdi:linkedin
+
+      - title: Email
+        url: mailto:joey@apollorion.com
+        icon: ic:round-email
+
+  - category: Projects
+    items:
+      - title: Manifests.io
+        url: https://www.manifests.io/
+        icon: noto:clipboard
+
+      - title: WTC The Game
+        url: https://www.wtc-the-game.org/
+        icon: jam:building
+
+      - title: The Situation Room (NHL)
+        url: https://situationroom.apollorion.com/
+        icon: emojione:ice-hockey
+
+      - title: Fly
+        url: https://github.com/Apollorion/fly
+        icon: openmoji:space-shuttle
+
+      - title: MAAS 2
+        url: https://github.com/Apollorion/MAAS2
+        icon: game-icons:mars-curiosity
+
+  - category: Spacelift Modules
+    items:
+      - title: MRPICKLE
+        url: https://github.com/Apollorion/MRPICKLE
+        icon: token-branded:pickle
+
+      - title: Plugin Sops
+        url: https://github.com/spacelift-solutions/plugin-sops
+        icon: simple-icons:mozilla
+
+      - title: Plugin Context Trigger
+        url: https://github.com/spacelift-solutions/plugin-context-trigger
+        icon: material-symbols:contextual-token-outline-sharp
