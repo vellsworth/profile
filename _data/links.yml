@@ -56,3 +56,15 @@ buttons:
       - title: Plugin Context Trigger
         url: https://github.com/spacelift-solutions/plugin-context-trigger
         icon: material-symbols:contextual-token-outline-sharp
+
+  - category: Blog Posts
+    items:
+      - title: Autoscaling Spacelift Workers In K8s
+        url: https://spacelift.io/blog/autoscaling-native-kubernetes-workers
+        icon: devicon:kubernetes
+      - title: IAC/Spacelift Best Practices
+        url: https://spacelift.io/blog/best-practices-for-iac-and-spacelift
+        icon: ic:outline-greater-than
+      - title: K8s/OpenMetrics/Datadog
+        url: https://medium.com/beambenefits/collecting-open-metrics-in-k8s-and-shipping-to-datadog-5345cd27ef18
+        icon: oui:app-metrics
