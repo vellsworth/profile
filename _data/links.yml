@@ -4,6 +4,7 @@ fixed-button-width: true # Set to true/false
 icon-position: left # Set to left/right
 buttons:
   - category: Where You Can Find Me
+    type: list
     items:
       - title: GitHub
         url: https://www.github.com/apollorion
@@ -22,6 +23,7 @@ buttons:
         icon: ic:round-email
 
   - category: Projects
+    type: dropdown
     items:
       - title: Manifests.io
         url: https://www.manifests.io/
@@ -44,6 +46,7 @@ buttons:
         icon: game-icons:mars-curiosity
 
   - category: Spacelift Modules
+    type: dropdown
     items:
       - title: MRPICKLE
         url: https://github.com/Apollorion/MRPICKLE
@@ -58,6 +61,7 @@ buttons:
         icon: material-symbols:contextual-token-outline-sharp
 
   - category: Blog Posts
+    type: dropdown
     items:
       - title: Autoscaling Spacelift Workers In K8s
         url: https://spacelift.io/blog/autoscaling-native-kubernetes-workers

@@ -1,5 +1,6 @@
 <main>
     {% for button in site.data.links.buttons %}
+    {% if button.type == 'list' %}
     <h2 class="text-center">{{ button.category }}</h2>
     {% for item in button.items %}
     <div class="row">
@@ -13,5 +14,6 @@
             </div>
         </div>
         {% endfor %}
+        {% endif %}
         {% endfor %}
 </main>
