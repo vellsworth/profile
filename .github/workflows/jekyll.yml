@@ -38,8 +38,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Get Posts
+        env:
+          MAX_POSTS: 5
         run: |
-          curl -sS https://bsky.app/profile/did:plc:7e7cnwumaewg7s2ryywfu3qe/rss | yq -p=xml '.rss.channel' -o yaml > _data/posts.yml
+          curl -sS https://bsky.app/profile/did:plc:7e7cnwumaewg7s2ryywfu3qe/rss | yq -p=xml '.rss.channel.item.[0:$MAX_POSTS]' -o yaml > _data/posts.yml
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
