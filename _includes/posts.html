@@ -1,0 +1,14 @@
+<main>
+    <h2 class="text-center"><span class="iconify-inline" data-icon="logos:bluesky" style="margin-left:.5em;margin-right:0"></span> Recent BlueSky Posts</h2>
+    {% for item in site.data.posts.item %}
+    <div class="row">
+        <div class="col is-center">
+            <a class="button outline secondary" style="width:50%" href="{{ item.link }}" target="_blank">
+                {{ item.description }}
+                <br/>
+                <span style="font-size: 0.5em">Published {{ item.pubDate }}</span>
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+</main>

@@ -14,6 +14,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Run it at least once a day to pull in latest bluesky posts
+  schedule:
+    - cron: "0 0 * * *"
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -33,6 +37,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Get Posts
+        run: |
+          curl -sS https://bsky.app/profile/did:plc:7e7cnwumaewg7s2ryywfu3qe/rss | yq -p=xml '.rss.channel' -o yaml > _data/posts.yml
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
