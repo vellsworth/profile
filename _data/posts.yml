@@ -1,12 +1,86 @@
-- link: https://bsky.app/profile/apollorion.com/post/3lbfp3dftsk27
-  description: I made my second post too, just in case.
-  pubDate: 20 Nov 2024 19:36 +0000
-  guid:
-    +content: at://did:plc:7e7cnwumaewg7s2ryywfu3qe/app.bsky.feed.post/3lbfp3dftsk27
-    +@isPermaLink: "false"
-- link: https://bsky.app/profile/apollorion.com/post/3lbfnzsdybs2n
-  description: Mic check hello hello is this thing on? This is my first post here <3
-  pubDate: 20 Nov 2024 19:17 +0000
-  guid:
-    +content: at://did:plc:7e7cnwumaewg7s2ryywfu3qe/app.bsky.feed.post/3lbfnzsdybs2n
-    +@isPermaLink: "false"
+feed:
+  - post:
+      uri: at://did:plc:7e7cnwumaewg7s2ryywfu3qe/app.bsky.feed.post/3lbfuxetscc2h
+      cid: bafyreiftwiowpvwlvoh5gii2tegbkzjfvwnjintch34pfrlxsbdvekbtee
+      author:
+        did: did:plc:7e7cnwumaewg7s2ryywfu3qe
+        handle: apollorion.com
+        displayName: Joey Stout
+        avatar: https://cdn.bsky.app/img/avatar/plain/did:plc:7e7cnwumaewg7s2ryywfu3qe/bafkreickft3dfyhc5v4yrsrl6jw742hg4huasepimy6vg4gj5ua2us6qhu@jpeg
+        labels: []
+        createdAt: "2024-11-20T19:09:51.653Z"
+      record:
+        $type: app.bsky.feed.post
+        createdAt: "2024-11-20T21:21:12.565Z"
+        embed:
+          $type: app.bsky.embed.external
+          external:
+            description: ""
+            title: x.com
+            uri: https://x.com/k8sfm/status/1859288426136113533?s=46&t=TnLl_Mh8vCUJij3t84QkbA
+        facets:
+          - features:
+              - $type: app.bsky.richtext.facet#link
+                uri: https://x.com/k8sfm/status/1859288426136113533
+            index:
+              byteEnd: 91
+              byteStart: 70
+        langs:
+          - en
+        text: 'Is it a sin to link to X on here? Oh well, real cool Spacelift thing: x.com/k8sfm/status...'
+      embed:
+        $type: app.bsky.embed.external#view
+        external:
+          uri: https://x.com/k8sfm/status/1859288426136113533?s=46&t=TnLl_Mh8vCUJij3t84QkbA
+          title: x.com
+          description: ""
+      replyCount: 1
+      repostCount: 0
+      likeCount: 0
+      quoteCount: 0
+      indexedAt: "2024-11-20T21:21:12.565Z"
+      labels: []
+  - post:
+      uri: at://did:plc:7e7cnwumaewg7s2ryywfu3qe/app.bsky.feed.post/3lbfp3dftsk27
+      cid: bafyreiea5sbqulb4n3mrt66fcwo7ac6qzycig32o3cbmzuiq2ysv5fdsqq
+      author:
+        did: did:plc:7e7cnwumaewg7s2ryywfu3qe
+        handle: apollorion.com
+        displayName: Joey Stout
+        avatar: https://cdn.bsky.app/img/avatar/plain/did:plc:7e7cnwumaewg7s2ryywfu3qe/bafkreickft3dfyhc5v4yrsrl6jw742hg4huasepimy6vg4gj5ua2us6qhu@jpeg
+        labels: []
+        createdAt: "2024-11-20T19:09:51.653Z"
+      record:
+        $type: app.bsky.feed.post
+        createdAt: "2024-11-20T19:36:02.827Z"
+        langs:
+          - en
+        text: I made my second post too, just in case.
+      replyCount: 0
+      repostCount: 0
+      likeCount: 0
+      quoteCount: 0
+      indexedAt: "2024-11-20T19:36:02.827Z"
+      labels: []
+  - post:
+      uri: at://did:plc:7e7cnwumaewg7s2ryywfu3qe/app.bsky.feed.post/3lbfnzsdybs2n
+      cid: bafyreiajpbumnn5oof2zyy6uwqgu4jxqc3nk53qn3oldpe6eypyuccnrj4
+      author:
+        did: did:plc:7e7cnwumaewg7s2ryywfu3qe
+        handle: apollorion.com
+        displayName: Joey Stout
+        avatar: https://cdn.bsky.app/img/avatar/plain/did:plc:7e7cnwumaewg7s2ryywfu3qe/bafkreickft3dfyhc5v4yrsrl6jw742hg4huasepimy6vg4gj5ua2us6qhu@jpeg
+        labels: []
+        createdAt: "2024-11-20T19:09:51.653Z"
+      record:
+        $type: app.bsky.feed.post
+        createdAt: "2024-11-20T19:17:17.644Z"
+        langs:
+          - en
+        text: Mic check hello hello is this thing on? This is my first post here <3
+      replyCount: 1
+      repostCount: 0
+      likeCount: 2
+      quoteCount: 0
+      indexedAt: "2024-11-20T19:17:17.644Z"
+      labels: []

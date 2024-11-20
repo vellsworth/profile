@@ -1,14 +1,17 @@
 <main>
     <h2 class="text-center"><span class="iconify-inline" data-icon="logos:bluesky" style="margin-left:.5em;margin-right:0"></span> Recent BlueSky Posts</h2>
-    {% for item in site.data.posts %}
+    {% for post in site.data.posts.feed %}
+    {% if post.post.record.text != "" %}
     <div class="row">
         <div class="col is-center">
-            <a class="button outline secondary" style="width:50%" href="{{ item.link }}" target="_blank">
-                {{ item.description }}
+            {% assign link = post.post.uri | split: "/app.bsky.feed.post/" %}
+            <a class="button outline secondary" style="width:50%" href="https://bsky.app/profile/apollorion.com/post/{{ link[1] }}" target="_blank">
+                {{ post.post.record.text }}
                 <br/>
-                <span style="font-size: 0.5em">Published {{ item.pubDate }}</span>
+                <span style="font-size: 0.5em">Published {{ post.post.record.createdAt | date: "%-d %B %Y" }}</span>
             </a>
         </div>
     </div>
+    {% endif %}
     {% endfor %}
 </main>
