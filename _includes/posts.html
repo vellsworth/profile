@@ -3,10 +3,10 @@
     {% for post in site.data.posts.feed %}
     {% if post.post.record.text != "" %}
     <div class="row">
-        <div class="col is-center">
+        <div class="col is-center" style="word-break: break-word;">
             {% assign link = post.post.uri | split: "/app.bsky.feed.post/" %}
-            <a class="button outline secondary" style="width:50%" href="https://bsky.app/profile/apollorion.com/post/{{ link[1] }}" target="_blank">
-                {{ post.post.record.text }}
+            <a class="button outline secondary" style="width:50%" href="https://bsky.app/profile/{{ post.post.author.handle }}/post/{{ link[1] }}" target="_blank">
+                {% if post.post.author.handle != "apollorion.com" %}<span style="color: grey;">Repost from @{{ post.post.author.handle }}</span><br/>{% endif %}{{ post.post.record.text | replace:'\n',' ' }}
                 <br/>
                 <span style="font-size: 0.5em">Published {{ post.post.record.createdAt | date: "%-d %B %Y" }}</span>
             </a>
