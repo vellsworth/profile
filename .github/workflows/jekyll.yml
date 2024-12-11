@@ -37,11 +37,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Get Posts
-        env:
-          MAX_POSTS: 5
-        run: |
-          curl -sS -H "Accept: application/json" "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=apollorion.com&limit=$MAX_POSTS" | yq -P > _data/posts.yml
+      # - name: Get Posts
+      #   env:
+      #     MAX_POSTS: 5
+      #   run: |
+      #     curl -sS -H "Accept: application/json" "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=apollorion.com&limit=$MAX_POSTS" | yq -P > _data/posts.yml
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
