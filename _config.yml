@@ -2,8 +2,8 @@
 theme: linkhub-jekyll-theme
 
 # Site Configuration
-name: RLTrufant  # Name of your website
-tagline: Armchair Capper  # Set your preferred page title
+name: Armchair Capper  # Name of your website
+tagline:  # Set your preferred page title
 description: Educated prognostication on athletic events. Some call it Sports Gambling.  # Also used as a meta description
 favicon:
   path: assets/images/favicon.svg # Path / URL to the favicon of your website (e.g., 'assets/images/favicon.png')
