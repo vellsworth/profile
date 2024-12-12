@@ -1,18 +1,16 @@
 bets:
-  - description: "ML +164"
+  - description: "ML +120"
     published: "Dec 12, 2024"
     teams:
-      - blackhawks
-      - jets
+      - wild
 
-  - description: "ML +164"
+  - description: "Patrik Laine ATG +210"
     published: "Dec 12, 2024"
     teams:
-      - red_wings
-      - jets
-
-  - description: "ML +164"
+      - canadiens
+      
+  - description: "Over 6.5 Goals -118"
     published: "Dec 12, 2024"
     teams:
-      - blackhawks
-      - jets
+      - blue_jackets
+      - capitals
