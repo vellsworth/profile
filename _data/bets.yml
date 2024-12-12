@@ -1,0 +1,15 @@
+bets:
+  - description: "ML +164"
+    teams:
+      - blackhawks
+      - jets
+
+  - description: "ML +164"
+    teams:
+      - red_wings
+      - jets
+
+  - description: "ML +164"
+    teams:
+      - blackhawks
+      - jets
