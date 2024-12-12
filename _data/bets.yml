@@ -1,15 +1,18 @@
 bets:
   - description: "ML +164"
+    published: "Dec 12, 2024"
     teams:
       - blackhawks
       - jets
 
   - description: "ML +164"
+    published: "Dec 12, 2024"
     teams:
       - red_wings
       - jets
 
   - description: "ML +164"
+    published: "Dec 12, 2024"
     teams:
       - blackhawks
       - jets
