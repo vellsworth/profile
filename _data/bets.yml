@@ -1,15 +1,15 @@
 bets:
-  - description: "Money Line +120"
+  - description: "Money Line +120 1u"
     published: "Dec 12, 2024"
     teams:
       - wild
 
-  - description: "Patrik Laine Anytime Goal +210"
+  - description: "Patrik Laine Anytime Goal +210 1u"
     published: "Dec 12, 2024"
     teams:
       - canadiens
       
-  - description: "Over 6.5 Goals -118"
+  - description: "Over 6.5 Goals -112 1u"
     published: "Dec 12, 2024"
     teams:
       - blue_jackets
