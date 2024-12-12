@@ -1,13 +1,13 @@
 <main>
-    <h2 class="text-center"><span class="iconify-inline" data-icon="logos:bluesky" style="margin-left:.5em;margin-right:0"></span> Recent Bets</h2>
+    <h2 class="text-center"><span class="iconify-inline" data-icon="fluent-emoji-flat:coin" style="margin-left:.5em;margin-right:0"></span> Recent Bets</h2>
     {% for bet in site.data.bets.bets %}
     <div class="row">
         <div class="col is-center" style="word-break: break-word;">
             <span class="button outline secondary" style="width:50%">
                 {% for team in bet.teams %}
-                <image src="assets/{{ team }}.png" />
+                <image src="assets/images/{{ team }}.png" />
                 {% endfor %}
-                {{ post.description}}
+                {{ bet.description }}
                 <br/>
                 <span style="font-size: 0.5em">Published {{ bet.published }}</span>
             </span>
