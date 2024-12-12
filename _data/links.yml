@@ -6,23 +6,23 @@ buttons:
   - category: Where You Can Find Me
     type: list
     items:
-      - title: GitHub
-        url: https://www.github.com/apollorion
-        icon: mdi:github
+      - title: Pikkit
+        url: https://links.pikkit.com/user/bobtrufant
+        icon: mdi:clover
 
-      - title: YouTube
-        url: https://www.youtube.com/@TheOutdoorProgrammer
-        icon: logos:youtube-icon
+      - title: Discord
+        url: https://discord.gg/RphbMgKNyY
+        icon: ic:baseline-discord
 
       - title: BlueSky
         url: https://bsky.app/profile/apollorion.com
         icon: logos:bluesky
 
-      - title: LinkedIn
-        url: https://www.linkedin.com/in/apollorion/
-        icon: mdi:linkedin
-
       - title: Email
-        url: mailto:joey@apollorion.com
+        url: mailto:rltrufant@gmail.com
         icon: ic:round-email
+
+      - title: Tips
+        url: https://venmo.com/u/MitWobetPHD
+        icon: bxl:venmo
 
