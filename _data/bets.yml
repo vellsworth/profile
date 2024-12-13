@@ -1,16 +1,17 @@
 bets:
-  - description: "Money Line +120 <i>1u</i>"
-    published: "Dec 12, 2024"
+  - description: "Super Bowl Champion +500 <i>1u</i>"
+    published: "Dec 99, 2024. Not Official. Test wager"
     teams:
-      - wild
+      - nfl-lions
 
-  - description: "Patrik Laine Anytime Goal +210 <i>1u</i>"
-    published: "Dec 12, 2024"
+  - description: "Both Teams To Score 2+ +155 <i>1u</i>"
+    published: "Dec 99, 2024. Not Official. Test wager"
     teams:
-      - canadiens
+      - kraken
+      - red_wings
       
-  - description: "Over 6.5 Goals -112 <i>1u</i>"
-    published: "Dec 12, 2024"
+  - description: "Under 43.5 Total Points -110 <i>1u</i>"
+    published: "Dec 99, 2024. Not Official. Test wager"
     teams:
-      - blue_jackets
-      - capitals
+      - nfl_49ers
+      - nfl_seahawks
