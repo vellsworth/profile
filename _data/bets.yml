@@ -1,17 +1,20 @@
 bets:
   - description: "Super Bowl Champion +500 <i>1u</i>"
     published: "Dec 99, 2024. Not Official. Test wager"
+    popup: popup content 1
     teams:
       - nfl-lions
 
   - description: "Both Teams To Score 2+ +155 <i>1u</i>"
     published: "Dec 99, 2024. Not Official. Test wager"
+    popup: popup content 2
     teams:
       - kraken
       - red_wings
       
   - description: "Under 43.5 Total Points -110 <i>1u</i>"
     published: "Dec 99, 2024. Not Official. Test wager"
+    popup: popup content 3
     teams:
       - nfl-49ers
       - nfl-seahawks
