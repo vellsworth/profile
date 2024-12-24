@@ -1,7 +1,7 @@
 <main>
     <h2 class="text-center"><span class="iconify-inline" data-icon="openmoji:ticket" style="margin-left:.5em;margin-right:0"></span> Rolling Unit</h2>
     {% for bet in site.data.rolling.bets %}
-    <div class="row">
+    <div class="row" onclick="alert('{{bet.popup}}');">
         <div class="col is-center" style="word-break: break-word;">
             <span class="button outline secondary" style="width:50%">
                 {% for team in bet.teams %}
