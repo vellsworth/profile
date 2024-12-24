@@ -1,8 +1,7 @@
 bets:
   - description: "Under 43.5 Total Points -110 <i>1u</i>"
     published: "Dec 99, 2024. Not Official. Test wager"
-    popup: |
-      Im the best better person in the whole entire world
+    popup: Im the best better person in the whole entire world
     teams:
       - nfl-49ers
       - nfl-seahawks
