@@ -1,16 +1,18 @@
 bets:
-  - description: "Texas -12.5 -110 <i>1.1u</i>"
-    published: "Jan 1, 2025. Played on Fanatics"
-    popup: Texas has the most favorable matchup of round 2. I dont think ASU has the ability to hang with Texas.
+  - description: "Mike Evans Anytime TD +105 <i>1u</i>"
+    published: "Jan 12, 2025. Played on DraftKings"
+    popup: Bakers favorite target and has been on fire lately.
     teams:
+      -  nfl-buccaneers
 
-  - description: "Oregon Team Total o27.5 -105 <i>1u</i>"
-    published: "Jan 1, 2025. Played on Bet365"
-    popup: While the over (54.5 at time of posting) is the popular play, I like Oregon to prove themselves and the value behind 27.5 - Four tochdowns is well within reach for Oregon.
+  - description: "Terry McLaurin o49.5 Yards +100 <i>2u</i>"
+    published: "Jan 12, 2025. Played with Bet365 Promo"
+    popup: Easy promo play. Massive EV.
     teams:
+      - nfl-commanders
       
-  - description: "Timo Meier Anytime Goal +240 <i>.75u</i>"
-    published: "Jan 1, 2025. Played on FanDuel"
-    popup: Nico came out firing and netted one last night. Scored in 4 of the last 6. Lets get another tonight. 
+  - description: "+2.5 -125 <i>1u</i>"
+    published: "Jan 12, 2025. Played on ESPNBet"
+    popup: When I see +2.5. I take +2.5 
     teams:
-      - devils
+      - ducks
