@@ -1,5 +1,6 @@
 bets:
-  - description: "Ohio St. +3.5 1st Half Spread -220 <i>1u</i>"
-    published: "Jan 1, 2025. Played on Bet365"
-    popup: Ohio State offense has been rolling. I have a personal Ohio St. 1st Half ML bet as well; but in the spirit of the rolling unit, teasing the spread to fit in the odds window.
+  - description: "2P Team Total Goals o0.5 -230 <i>1u</i>"
+    published: "Jan 13, 2025. Played on DraftKings"
+    popup: Oilers are hot in the second period with 1.6 Goals on average over the last 10.
     teams:
+      - nhl-oilers
