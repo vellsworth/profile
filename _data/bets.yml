@@ -1,18 +1,19 @@
 bets:
-  - description: "Mike Evans Anytime TD +105 <i>1u</i>"
-    published: "Jan 12, 2025. Played on DraftKings"
-    popup: Bakers favorite target and has been on fire lately.
+  - description: "Brandon Hagel ATG +200 <i>1u</i>"
+    published: "Jan 14, 2025. Played on FanDuel"
+    popup: 7 Goals in 13 career games against Boston. +200 is solid value
     teams:
-      - nfl-buccaneers
+      - lightning
 
-  - description: "Terry McLaurin o49.5 Yards +100 <i>2u</i>"
-    published: "Jan 12, 2025. Played with Bet365 Promo"
-    popup: Easy promo play. Massive EV.
+  - description: "o5.5 -120 <i>1u</i>"
+    published: "Jan 14, 2025. Played on ESPNBet"
+    popup: Both teams have fire power. Maple Leafs due for offensive break out.
     teams:
-      - nfl-commanders
+      - stars
+      - maple_leafs
       
-  - description: "+2.5 -125 <i>1u</i>"
-    published: "Jan 12, 2025. Played on ESPNBet"
-    popup: When I see +2.5. I take +2.5 
+  - description: "ML +136 <i>1.25u</i>"
+    published: "Jan 14, 2025. Played on DraftKings"
+    popup: Utah is slumping while Habs are strong with Laine in the lineup. Give me Habs at this value 
     teams:
-      - ducks
+      - canadiens
