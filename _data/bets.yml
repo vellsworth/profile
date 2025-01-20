@@ -1,19 +1,19 @@
 bets:
   - description: "Pastrnak 2+ Pts +120 <i>.5u</i>"
     published: "Jan 20, 2025. Played on Bet365"
-    popup: 7 Goals in 13 career games against Boston. +200 is solid value
+    popup: Weak Team. Strong Pasta
     teams:
       - bruins
 
   - description: "GIFF +200 <i>.5u</i>"
     published: "Jan 20, 2025. Played on DraftKings"
-    popup: Both teams have fire power. Maple Leafs due for offensive break out.
+    popup: Teams have a high percentage in Goal in the First Ten. Taking a gamble with Goal in First Five
     teams:
       - sharks
       - bruins
       
   - description: "ML +190 <i>.5u</i>"
     published: "Jan 20, 2025. Played on Bet365"
-    popup: Utah is slumping while Habs are strong with Laine in the lineup. Give me Habs at this value 
+    popup: Simple EV Play
     teams:
       - wild
