@@ -1,19 +1,19 @@
 bets:
-  - description: "Brandon Hagel ATG +200 <i>1u</i>"
-    published: "Jan 14, 2025. Played on FanDuel"
+  - description: "Pastrnak 2+ Pts +120 <i>.5u</i>"
+    published: "Jan 20, 2025. Played on Bet365"
     popup: 7 Goals in 13 career games against Boston. +200 is solid value
     teams:
-      - lightning
+      - bruins
 
-  - description: "o5.5 -120 <i>1u</i>"
-    published: "Jan 14, 2025. Played on ESPNBet"
+  - description: "GIFF +200 <i>.5u</i>"
+    published: "Jan 20, 2025. Played on DraftKings"
     popup: Both teams have fire power. Maple Leafs due for offensive break out.
     teams:
-      - stars
-      - maple_leafs
+      - sharks
+      - bruins
       
-  - description: "ML +136 <i>1.25u</i>"
-    published: "Jan 14, 2025. Played on DraftKings"
+  - description: "ML +190 <i>.5u</i>"
+    published: "Jan 20, 2025. Played on Bet365"
     popup: Utah is slumping while Habs are strong with Laine in the lineup. Give me Habs at this value 
     teams:
-      - canadiens
+      - wild
