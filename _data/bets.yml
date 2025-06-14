@@ -1,19 +1,12 @@
 bets:
-  - description: "Pastrnak 2+ Pts +120 <i>.5u</i>"
-    published: "Jan 20, 2025. Played on Bet365"
-    popup: Weak Team. Strong Pasta
+  - description: "Alanna Smith o9.5 Pts -120 <i>1u</i>"
+    published: "Jun 14, 2025. Played on FanDuel"
+    popup: 71% Cover Prob | +30% EV | 6-2 to the Over
     teams:
-      - bruins
+      -
 
-  - description: "GIFF +200 <i>.5u</i>"
-    published: "Jan 20, 2025. Played on DraftKings"
-    popup: Teams have a high percentage in Goal in the First Ten. Taking a gamble with Goal in First Five
+  - description: "Columbus Crew ML 3-Way -118 <i>1u</i>"
+    published: "Jun 14, 2025. Played on Bet365"
+    popup: Due Factor vs Regression. Early Payout available via Bet365
     teams:
-      - sharks
-      - bruins
-      
-  - description: "ML +190 <i>.5u</i>"
-    published: "Jan 20, 2025. Played on Bet365"
-    popup: Simple EV Play
-    teams:
-      - wild
+      - 
