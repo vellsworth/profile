@@ -1,5 +1,5 @@
 <main>
-    <h2 class="text-center"><span class="iconify-inline" data-icon="openmoji:ticket" style="margin-left:.5em;margin-right:0"></span> Rolling Unit</h2>
+    <h2 class="text-center"><span class="iconify-inline" data-icon="openmoji:ticket" style="margin-left:.5em;margin-right:0"></span> Pick of the Day</h2>
     {% for bet in site.data.rolling.bets %}
     {% assign popup = bet.popup | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip %}
     <div class="row" onclick="alert('{{popup}}');">
